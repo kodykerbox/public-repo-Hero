@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "famous-last-words": "^0.3.0",
     "inspirational-quotes": "^1.0.8",
     "popular-movie-quotes": "^1.2.3",
     "superheroes": "^3.0.0",

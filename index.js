@@ -25,9 +25,13 @@ const Movie = require('popular-movie-quotes');
 var myMovie = Movie.getRandomQuote();
 console.log(myMovie); 
 
+const famousLastWords = require('famous-last-words');
+console.log(famousLastWords[0]);
+
 //copy above information to a file
 const fs = require("fs");
 fs.writeFileSync("file1.txt", mySuperHeroName);
 fs.writeFileSync("file2.txt", mySuperVillainName);
 fs.writeFileSync("file3.txt", myQuote);
 fs.writeFileSync("file4.txt", myMovie);
+fs.writeFileSync("file5.txt", famousLastWords[0]);
